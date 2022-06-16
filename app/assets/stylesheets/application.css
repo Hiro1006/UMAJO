@@ -49,12 +49,34 @@ li {
 
 .shadow {
   width:150px;
-  font-size:15px;
-  color:#FFFFFF;
+  font-size:16px;
+  font-family: fantasy;
+  color:#2C3E50;
   text-align:center;
   display:block;
   padding:10px 0 10px;
-  background:#6BCBF6;
+  background:#FDEBD0;
   border-radius:5px;
   box-shadow:1px 1px #1A6EA0;
+}
+
+.footer {
+  background-color: #82E0AA;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-logo span {
+  font-size: 48px;
+  color: #EC407A;
+}
+
+.footer-list {
+  float: right;
 }
