@@ -1,2 +1,26 @@
-<h1>Homes#top</h1>
-<p>Find me in app/views/homes/top.html.erb</p>
+<div class="main">
+  <div class="copy-container">
+    <h1>HEROINE IS COMING<span>.</span></h1>
+    <h2>競馬の世界へようこそ</h2>
+  </div>
+
+<div class="contents">
+  <h3 class="section-title">競馬場一覧</h3>
+    <div class="contents-item">
+      <%= link_to image_tag('Tokyo.jpg', size: '250x250'), '/' %>
+        <p>東京競馬場</p>
+    </div>
+    <div class="contents-item">
+      <%= link_to image_tag('Nakayama.jpg', size: '250x250'), '/' %>
+        <p>中山競馬場</p>
+    </div>
+    <div class="contents-item">
+      <%= link_to image_tag('Hanshin.jpg', size: '250x250'), '/' %>
+        <p>阪神競馬場</p>
+    </div>
+    <div class="contents-item">
+      <%= link_to image_tag('Kyoto.jpg', size: '250x250'), '/' %>
+        <p>京都競馬場</p>
+    </div>
+  </div>
+</div>
