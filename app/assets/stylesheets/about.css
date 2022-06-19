@@ -1,0 +1,39 @@
+.about {
+   background-image: url("about.jpg");
+   background-size:cover;
+   background-position:center;
+   background-repeat:no-repeat;
+   font-family: fantasy;
+}
+
+.about-title h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.about-explain {
+  text-align: center;
+  font-size: 32px;
+  color: #FFFFFF;
+  opacity: 0.9;
+  padding: 45px 45px;
+}
+
+.about-explain span2 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.ab-shadow {
+  text-align: center;
+  width:180px;
+  font-size:24px;
+  font-family: fantasy;
+  color:#2C3E50;
+  background:#FFFFFF;
+  border-radius:5px;
+  box-shadow:1px 1px #1A6EA0;
+}
