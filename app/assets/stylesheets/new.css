@@ -5,7 +5,8 @@
 .signin-title {
   color: #ff69b4;
   font-family: "Comic Sans MS";
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 56px
 }
 
 .field {
